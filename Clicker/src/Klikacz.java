@@ -76,7 +76,7 @@ public class Klikacz extends JFrame {
 		btnUpgradeTime.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				wynik.ulepszeniePerSekunda();
-				textKoszt.setText(""+wynik.podajKosztUlepszenia());
+				textField.setText(""+wynik.podajKosztUlepszeniaNaSekunde());
 				outKredyty.setText(""+wynik.podajKredyty());
 				textLvlTime.setText(""+(int)wynik.ulepszeniePoziomPerSekunda());
 			}
@@ -95,7 +95,7 @@ public class Klikacz extends JFrame {
 		lbls.setBounds(10, 111, 46, 14);
 		getContentPane().add(lbls);
 		
-		JLabel lblclick = new JLabel("+1/Click");
+		JLabel lblclick = new JLabel("+Click");
 		lblclick.setBounds(10, 77, 46, 14);
 		getContentPane().add(lblclick);
 		

@@ -58,5 +58,8 @@ public class Score {
 	double ulepszeniePoziomPerSekunda() {
 		return this.upgradeCountPerSecond;
 	}
+	double podajKosztUlepszeniaNaSekunde() {
+		return this.upgradeCostPerSecond;
+	}
 
 }
